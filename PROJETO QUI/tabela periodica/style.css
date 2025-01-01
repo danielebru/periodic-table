@@ -1,0 +1,350 @@
+body{
+    background-color: rgb(221, 217, 166);
+    margin-top: 40px;
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(18, 1fr);
+    gap: 2px;
+    max-width: 1800px;
+    margin: 0 auto;
+    padding: 20px;
+    
+    
+}
+
+  
+.element {
+    border: 1px solid #ccc;
+    padding: 4px;
+    text-align: center;
+    background-color: #fff;
+    transition: transform 0.2s;
+}
+.element:hover {
+    transform: scale(1.1);
+    z-index: 1;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.litio{
+    border: 1px solid #ccc;
+    padding: 4px;
+    text-align: center;
+    background-color: #fff;
+    transition: transform 0.2s;
+    grid-column: 1;
+    background-color: #d8bb48;
+}
+.litio:hover {
+    transform: scale(1.1);
+    z-index: 1;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+    
+   
+.hid{
+    border: 1px solid #ccc;
+    padding: 4px;
+    text-align: center;
+    background-color: #fff;
+    transition: transform 0.2s;
+    grid-column: 1;
+    background-color: #d8bb48;
+}   
+.hid:hover{
+    transform: scale(1.1);
+    z-index: 1;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+    
+  
+.helio{
+    border: 1px solid #ccc;
+    padding: 4px;
+    text-align: center;
+    background-color: #fff;
+    transition: transform 0.2s;
+    grid-column: 18;
+    background-color: #26b487;
+}   
+.helio:hover{
+    transform: scale(1.1);
+    z-index: 1;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+
+.sodio{
+    border: 1px solid #ccc;
+    padding: 4px;
+    text-align: center;
+    background-color: #fff;
+    transition: transform 0.2s;
+    grid-column: 1;
+    background-color: #d8bb48;
+}   
+.sodio:hover{
+    transform: scale(1.1);
+    z-index: 1;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}   
+
+   
+.boro{
+    border: 1px solid #ccc;
+    padding: 4px;
+    text-align: center;
+    background-color: #fff;
+    transition: transform 0.2s;
+    grid-column: 13;
+    background-color: #66ff33;
+}   
+.boro:hover{
+    transform: scale(1.1);
+    z-index: 1;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+  
+.aluminio{
+    border: 1px solid #ccc;
+    padding: 4px;
+    text-align: center;
+    background-color: #fff;
+    transition: transform 0.2s;
+    grid-column: 13;
+    background-color: #ccc;
+}   
+.aluminio:hover{
+    transform: scale(1.1);
+    z-index: 1;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+
+
+
+
+
+.rubidio{
+    border: 1px solid #ccc;
+    padding: 4px;
+    text-align: center;
+    background-color: #fff;
+    transition: transform 0.2s;
+    grid-column: 1;
+    background-color: #d8bb48;
+}   
+.rubidio:hover{
+    transform: scale(1.1);
+    z-index: 1;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.potassio{
+    border: 1px solid #ccc;
+    padding: 4px;
+    text-align: center;
+    background-color: #fff;
+    transition: transform 0.2s;
+    grid-column: 1;
+    background-color: #d8bb48;
+}   
+.potassio:hover{
+    transform: scale(1.1);
+    z-index: 1;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.cesio{
+    border: 1px solid #ccc;
+    padding: 4px;
+    text-align: center;
+    background-color: #fff;
+    transition: transform 0.2s;
+    grid-column: 1;
+    background-color: #d8bb48;
+}   
+.cesio:hover{
+    transform: scale(1.1);
+    z-index: 1;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+
+
+.francio{
+    border: 1px solid #ccc;
+    padding: 4px;
+    text-align: center;
+    background-color: #fff;
+    transition: transform 0.2s;
+    grid-column: 1;
+    background-color: #d8bb48;
+}
+.francio:hover {
+    transform: scale(1.1);
+    z-index: 1;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+    
+.criptonio {
+    border: 1px solid #ccc;
+    padding: 4px;
+    text-align: center;
+    background-color: #fff;
+    transition: transform 0.2s;
+    grid-row: 4;
+    grid-column: 18; 
+    background-color: #26b487;
+
+}
+  .criptonio:hover{transform: scale(1.1);
+    z-index: 1;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+
+.cerio{
+    border: 1px solid #ccc;
+    padding: 4px;
+    text-align: center;
+    background-color: #fff;
+    transition: transform 0.2s;
+    grid-column: 4;
+    background-color: #ff66cc;
+}
+.cerio:hover {
+    transform: scale(1.1);
+    z-index: 1;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+
+.torio{
+    border: 1px solid #ccc;
+    padding: 4px;
+    text-align: center;
+    background-color: #fff;
+    transition: transform 0.2s;
+    grid-column: 4;
+    background-color: #ff9666;
+}
+.torio:hover {
+    transform: scale(1.1);
+    z-index: 1;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+
+   
+ 
+.oga{
+    border: 1px solid #ccc;
+    padding: 4px;
+    text-align: center;
+    background-color: #fff;
+    transition: transform 0.2s;
+    grid-column: 18;
+    background-color: #26b487;
+}   
+.oga:hover{
+    transform: scale(1.1);
+    z-index: 1;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+
+.metais-alcalinos {
+    background-color: #ff5733; 
+}
+
+.metais-alcalino-terrosos {
+    background-color: #ffb533; 
+}
+
+.gases-nobres {
+    background-color: #26b487;
+
+}
+
+.halogênios {
+    background-color: #c284a5; 
+}
+
+
+.semimetais {
+    background-color: #66ff33; 
+}
+
+.metaistransição {
+    background-color: #9933ff;
+}
+
+.lantanídeos {
+    background-color: #ff66cc; 
+}
+
+.actinídeos {
+    background-color: #ff9666; 
+}
+.nao-metais{
+    background-color: #d8bb48; 
+}
+.metais-repre{
+    background-color: #ccc;
+}
+
+
+
+.legenda {
+    position: fixed; 
+    top: 10px; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    background-color: #333; 
+    color: white; 
+    padding: 15px; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5); 
+    z-index: 1000; 
+    cursor: move; 
+}
+
+.legenda ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.legenda li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+.legenda li:last-child {
+    margin-bottom: 0;
+}
+.circle {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+.alcalino { background-color: #ff5733; }
+.alcalinoterroso { background-color: #ffb533; }
+.transicao{ background-color: #9933ff; }
+.semi-metais { background-color: #66ff33; }
+.halogenios { 
+    background-color: #c284a5; 
+}
+.represent{
+    background-color: #ccc;
+}
+
+.ametais { background-color: #d8bb48; }
+.gasesnobres { background-color: #26b487; }
+.lantanideos{ background-color: #ff66cc; }
+.actinideos{ background-color: #ff9666; }
