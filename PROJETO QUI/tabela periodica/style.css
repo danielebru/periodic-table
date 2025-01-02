@@ -216,6 +216,7 @@ body{
     transition: transform 0.2s;
     grid-column: 4;
     background-color: #ff66cc;
+    margin-top: 50px;
 }
 .cerio:hover {
     transform: scale(1.1);
@@ -348,3 +349,27 @@ body{
 .gasesnobres { background-color: #26b487; }
 .lantanideos{ background-color: #ff66cc; }
 .actinideos{ background-color: #ff9666; }
+
+
+
+
+.element:nth-child(n+90):nth-child(-n+103) {
+    margin-top: 50px;
+}
+
+.lut{
+    border: 1px solid #ccc;
+    padding: 4px;
+    text-align: center;
+    background-color: #fff;
+    transition: transform 0.2s;
+    grid-column: 17;
+    background-color: #ff66cc;
+    margin-top: 50px;
+}   
+.lut:hover{
+    transform: scale(1.1);
+    z-index: 1;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
