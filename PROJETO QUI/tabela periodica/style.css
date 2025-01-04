@@ -207,6 +207,20 @@ body{
     box-shadow: 0 0 10px rgba(0,0,0,0.2);
 }
 
+.lutecio {
+    border: 1px solid #ccc;
+    margin-top: 50px;
+    padding: 4px;
+    text-align: center;
+    background-color: #fff;
+    transition: transform 0.2s;
+    background-color: #ff66cc;
+
+}
+  .lutecio:hover{transform: scale(1.1);
+    z-index: 1;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
 
 .cerio{
     border: 1px solid #ccc;
@@ -373,3 +387,54 @@ body{
     box-shadow: 0 0 10px rgba(0,0,0,0.2);
 }
 
+.popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    max-width: 90%;
+    z-index: 1000;
+}
+
+.popup-content {
+    padding: 20px;
+    text-align: center;
+}
+
+.popup-content h2 {
+    margin-top: 0;
+}
+
+.popup-content p {
+    margin: 10px 0;
+}
+
+.popup-content button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.popup-content button:hover {
+    background-color: #0056b3;
+}
+
+.popup-content a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.popup-content a:hover {
+    text-decoration: underline;
+}
