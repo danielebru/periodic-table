@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estrutura Atômica</title>
+    <link rel="icon" href="../tabela periodica/assets/ATOMO.png" type="image/png">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: #1e1e1e;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            width: 80%;
+            max-width: 1200px;
+            height: 100%; 
+            padding: 50px 0; 
+        }
+
+        .atom {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 500px;
+            margin-top: 50px; 
+        }
+
+        .radius {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 50px;
+            height: 50px;
+            background: #ffcc00; 
+            border-radius: 50%;
+            animation: spin 4s infinite linear;
+        }
+
+        .orbit {
+            position: absolute;
+            border-radius: 70%;
+            width: 100px;
+            height: 300px;
+            border: 2px solid #ccc;
+        }
+
+        .orbit1 {
+            transform: rotate(90deg);
+            border-color: #00ccff; 
+        }
+
+        .orbit2 {
+            transform: rotate(30deg);
+            border-color: #ff66cc; 
+        }
+
+        .orbit3 {
+            transform: rotate(-30deg);
+            border-color: #66ff66; 
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+
+        .orbit1 .electron,
+        .orbit2 .electron,
+        .orbit3 .electron {
+            position: absolute;
+            width: 15px;
+            height: 15px;
+            background: #ffcc00; 
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .orbit1 .electron {
+            top: 15px;
+            left: 15px;
+        }
+
+        .orbit2 .electron {
+            top: 250px;
+            left: 8px;
+        }
+
+        .orbit3 .electron {
+            top: 25px;
+            left: 9px;
+        }
+
+        span {
+            font-size: 5pt;
+            
+            transform: rotate(90deg);
+        }
+
+        .explanation {
+            
+            padding: 30px;
+            border-radius: 15px;
+            max-width: 600px;
+            
+            line-height: 1.8;
+            text-align: left;
+            
+            color: #f5f5f5;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            height: auto;
+        }
+
+        .explanation h2 {
+            font-size: 32px;
+            margin-bottom: 20px;
+            color: #ffcc00;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .explanation p {
+            font-size: 18px;
+            margin-bottom: 15px;
+        }
+
+        .explanation ul {
+            margin-top: 20px;
+            list-style: none;
+            
+            padding-left: 20px;
+        }
+
+        .explanation ul li {
+           
+            font-size: 18px;
+            margin-bottom: 10px;
+            position: relative;
+        }
+
+        .explanation ul li::before {
+            position: absolute;
+            left: 0;
+            top: 0;
+            font-size: 20px;
+            
+        }
+
+        .gold{
+          color: #ffcc00;
+          font-size: 18px;
+          margin-bottom: 10px;
+        }
+
+        
+    </style>
+</head>
+<body>
+
+  <div style="position: fixed; top: 0; width: 100%;  padding: 10px;  text-align: left;">
+    <button 
+        style="background-color: #007bff;; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; font-size: 16px; margin-left: 10px;" 
+        onclick="location.href='home.html'">
+        Início
+    </button>
+  </div>
+
+    <div class="container">
+        <div class="atom">
+            <div class="radius">
+                <div class="orbit orbit1">
+                    <div class="electron"><span>-</span></div>
+                </div>
+                <div class="orbit orbit2">
+                    <div class="electron"><span>-</span></div>
+                </div>
+                <div class="orbit orbit3">
+                    <div class="electron"><span>-</span></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="explanation">
+            <h2>Estrutura Atômica</h2>
+            <p>A estrutura atômica descreve a organização dos componentes de um átomo, incluindo o núcleo e os elétrons que o cercam.</p>
+            <p>O núcleo é composto por prótons (com carga positiva) e nêutrons (sem carga). Eles formam a maior parte da massa do átomo e estão localizados no centro. Ao redor do núcleo, os elétrons, que têm carga negativa, orbitam em diferentes camadas, ou órbitas.</p>
+            <p>Estas órbitas podem ser representadas por círculos concêntricos, com cada um possuindo um nível específico de energia. As órbitas mais próximas ao núcleo têm menor energia, enquanto as mais distantes possuem maior energia. A movimentação dos elétrons pode ser visualizada através de suas órbitas em movimento.</p>
+            <p>Veja abaixo os principais pontos sobre a estrutura atômica:</p>
+            <ul>
+                <li><strong><span class="gold">Núcleo:</span></strong> Contém prótons e nêutrons, responsáveis pela maior parte da massa do átomo.</li>
+                <li><strong><span class="gold">Elétrons:</span></strong> Partículas negativas que orbitam ao redor do núcleo.</li>
+                <li><strong><span class="gold">Camadas eletrônicas:</span></strong> Os elétrons são distribuídos em diferentes camadas ao redor do núcleo.</li>
+                <li><strong><span class="gold">Órbitas:</span></strong> Cada camada eletrônica é representada por uma órbita, com uma energia específica associada.</li>
+            </ul>
+            <p>Esse modelo ajuda a entender como os átomos se organizam e se comportam em nível microscópico.</p>
+        </div>
+    </div>
+
+</body>
+</html>

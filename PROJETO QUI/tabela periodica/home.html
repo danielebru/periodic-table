@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Química Geral</title>
+    <link rel="icon" href="../tabela periodica/assets/favicon.png" type="image/png">
+
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            min-height: 100vh;
+            margin: 0;
+            background-color: #007bff;
+            color: whitesmoke;
+        }
+
+        .button-container {
+            display: flex;
+            gap: 60px; 
+            justify-content: center;
+            align-items: center;
+        }
+
+        .button-wrapper {
+            text-align: center;
+        }
+
+        .button {
+            display: block;
+            width: 300px;
+            height: 300px;
+            border: none;
+            background-color: #007bff;
+            border-radius: 10px;
+            cursor: pointer;
+            padding: 0;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .button img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        .caption {
+            margin-top: 10px;
+            font-size: 22px; 
+            font-family: Arial, Helvetica, sans-serif;
+            color: whitesmoke;
+        }
+
+        .button:hover {
+            transform: scale(1.05);
+            transition: transform 0.3s ease;
+        }
+
+        h1 {
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+
+        hr {
+            border: 1px solid whitesmoke;
+            width: 80%;
+        }
+    </style>
+</head>
+
+<body>
+    
+
+    <div class="button-container">
+        <div class="button-wrapper">
+            <button class="button">
+                <a href="tabelaP.html">
+                <img src="../tabela periodica/assets/TABELA.png" alt="Tabela Periódica"></a>
+            </button>
+            <div class="caption">Tabela Periódica</div>
+        </div>
+
+        <div class="button-wrapper">
+            <button class="button">
+                <a href="estruturaA.html">
+                <img src="../tabela periodica/assets/ATOMO.png" alt="Estrutura Atômica"></a>
+            </button>
+            <div class="caption">Estrutura Atômica</div>
+        </div>
+    </div>
+</body>
+</html>
